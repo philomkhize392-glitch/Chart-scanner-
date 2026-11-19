@@ -1,0 +1,6 @@
+{
+  "name": "ChartScope",
+  "description": "AI trading chart scanner, live TradingView market analysis, and grounded fundamental economic analysis.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
