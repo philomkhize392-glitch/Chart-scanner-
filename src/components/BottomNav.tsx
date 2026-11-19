@@ -20,7 +20,7 @@ export function BottomNav({ activeTab, onChange }: BottomNavProps) {
   return (
     <nav
       aria-label="Primary Navigation"
-      className="fixed bottom-0 left-0 right-0 z-40 border-t border-white/[0.08] bg-[#090B0E]/95 backdrop-blur-md"
+      className="fixed bottom-0 left-0 right-0 z-40 border-t border-white/[0.08] bg-[#090B0E]/95 backdrop-blur-md pb-[env(safe-area-inset-bottom)]"
     >
       <div className="max-w-3xl mx-auto grid grid-cols-3 h-16">
         {NAV_ITEMS.map((item) => {

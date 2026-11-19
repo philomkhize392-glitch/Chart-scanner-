@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#090B0E"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="#11141A" stroke="#1E2530" stroke-width="4"/>
+  <!-- Precision scanner reticles -->
+  <path d="M108 164V124C108 115.163 115.163 108 124 108H164" stroke="#10B981" stroke-width="14" stroke-linecap="round"/>
+  <path d="M404 164V124C404 115.163 396.837 108 388 108H348" stroke="#10B981" stroke-width="14" stroke-linecap="round"/>
+  <path d="M108 348V388C108 396.837 115.163 404 124 404H164" stroke="#10B981" stroke-width="14" stroke-linecap="round"/>
+  <path d="M404 348V388C404 396.837 396.837 404 388 404H348" stroke="#10B981" stroke-width="14" stroke-linecap="round"/>
+  <!-- Candlesticks -->
+  <line x1="176" y1="210" x2="176" y2="338" stroke="#F43F5E" stroke-width="10" stroke-linecap="round"/>
+  <rect x="156" y="236" width="40" height="74" rx="8" fill="#F43F5E"/>
+  <line x1="256" y1="174" x2="256" y2="334" stroke="#10B981" stroke-width="10" stroke-linecap="round"/>
+  <rect x="236" y="204" width="40" height="96" rx="8" fill="#10B981"/>
+  <line x1="336" y1="148" x2="336" y2="296" stroke="#10B981" stroke-width="10" stroke-linecap="round"/>
+  <rect x="316" y="172" width="40" height="92" rx="8" fill="#10B981"/>
+  <!-- Horizontal scan beam -->
+  <line x1="116" y1="256" x2="396" y2="256" stroke="#34D399" stroke-width="6" stroke-opacity="0.7" stroke-linecap="round"/>
+</svg>

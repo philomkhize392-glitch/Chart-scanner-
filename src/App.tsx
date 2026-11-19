@@ -4,6 +4,7 @@ import { FundamentalSection } from './components/FundamentalSection';
 import { Header } from './components/Header';
 import { ImageScannerSection } from './components/ImageScannerSection';
 import { LiveChartSection } from './components/LiveChartSection';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import type { ActiveTab } from './types/trading';
 
 export default function App() {
@@ -52,6 +53,7 @@ export default function App() {
         )}
       </main>
 
+      <OfflineIndicator />
       <BottomNav activeTab={activeTab} onChange={handleTabChange} />
     </div>
   );
